@@ -14,17 +14,22 @@ public class Ejercicio6 {
     //FUNCION CODIGO DE ERROR
     public static void codigo_error(int codigo){
 
-        if(codigo == 1){
-            System.out.println("Error en memoria. Revisar la memoria del equipo.");
-        }
-        else if(codigo == 2){
+        switch(codigo){
+            case 1:
+                System.out.println("Error en memoria. Revisar la memoria del equipo.");
+                break;
+        
+        case 2:
             System.out.println("Papel atascado en impresora. Revisar la impresora.");
-        }
-        else if(codigo == 3){
+            break;
+        
+        case 3:
             System.out.println("Disco defectuoso. Revisar el disco del equipo.");
-        }
-        else{
+            break;
+        
+        default:
             System.out.println("Error indefinido. El codigo introducido no existe.");
+            break;
         }
 
     }
@@ -36,8 +41,8 @@ public class Ejercicio6 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Querido usuario por favor digite el codigo de error: ");
-        int codigo;
-        codigo = teclado.nextInt();
+    
+        int codigo = teclado.nextInt();
 
         codigo_error(codigo);
 
