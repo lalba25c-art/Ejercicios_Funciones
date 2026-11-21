@@ -1,3 +1,4 @@
+
 package ejercicios;
 import java.util.Scanner;
 
@@ -27,6 +28,8 @@ public class Catalogo_Ejercicios {
             System.out.println("[6] Ejercicio 6 - Codigo de error");
             System.out.println("[7] Ejercicio 7 - Calcular potencia");
             System.out.println("[8] Ejercicio 8 - Area o volumen del cilindro");
+            System.out.println("[9] Ejercicio 9 - Inventario de equipos");
+            System.out.println("[0] Salir");
             System.out.println("----------------------------------------");
 
             System.out.println("Querido usuario, por favor seleccione una opcion:");
@@ -140,6 +143,12 @@ public class Catalogo_Ejercicios {
                     break;
                 }
 
+                case 9: {
+                    System.out.println("\n--- EJECUTANDO EJERCICIO 9 ---");
+                    Ejercicios_arrays.inventario(teclado);
+                    break;
+                }
+
                 case 0: {
                     System.out.println("Gracias por utilizar el programa. Hasta pronto.");
                     break;
@@ -168,4 +177,5 @@ public class Catalogo_Ejercicios {
         System.out.println("\nPrograma finalizado. Hasta pronto!");
 
     }
- }   
+}
+
