@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ☕ PROGRAMACIÓN EN JAVA
@@ -30,7 +29,7 @@
 
 **Programación en Java — Primeros pasos** es un proyecto académico que reúne una serie de ejercicios planteados por el docente, cuyo propósito es poner a prueba y reforzar los conocimientos adquiridos en clase mediante la práctica de la programación.
 
-A través de diferentes actividades, se trabaja principalmente con el uso y la creación de funciones, así como con estructuras fundamentales del lenguaje Java, entre ellas las condiciones, los bucles y otras herramientas básicas de programación.
+A través de diferentes actividades, se trabaja principalmente con el uso y la creación de funciones, así como con estructuras fundamentales del lenguaje Java, entre ellas las condiciones, los bucles, los arrays y otras herramientas básicas de programación.
 
 Cada ejercicio representa una oportunidad para desarrollar el pensamiento lógico, mejorar la capacidad de resolución de problemas y comprender cómo organizar y estructurar el código de manera clara y eficiente.
 
@@ -42,12 +41,13 @@ Cada ejercicio representa una oportunidad para desarrollar el pensamiento lógic
 - Comprender y aplicar funciones y métodos.
 - Utilizar estructuras condicionales.
 - Trabajar con bucles y estructuras repetitivas.
+- Practicar el manejo de arrays.
 - Desarrollar el pensamiento lógico y computacional.
 - Mejorar la organización y legibilidad del código.
 
 ## 03. 📂 Contenido del repositorio
 
-El repositorio contiene un catálogo principal y ocho ejercicios independientes.
+El repositorio contiene un catálogo principal y nueve ejercicios independientes.
 
 | Archivo | Descripción |
 |:---|:---|
@@ -60,6 +60,7 @@ El repositorio contiene un catálogo principal y ocho ejercicios independientes.
 | `Ejercicio6.java` | Sexto ejercicio práctico. |
 | `Ejercicio7.java` | Séptimo ejercicio práctico. |
 | `Ejercicio8.java` | Octavo ejercicio práctico. |
+| `Ejercicios_arrays.java` | Ejercicio práctico dedicado al trabajo con arrays. |
 
 ## 04. 🛠️ Tecnologías y herramientas
 
